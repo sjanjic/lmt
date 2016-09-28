@@ -1,0 +1,2 @@
+# lmt
+Lazy Magento Tools
