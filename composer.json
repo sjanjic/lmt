@@ -1,0 +1,20 @@
+{
+    "name": "sjanjic/lmt",
+    "description": "Lazy Magento Tools",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Srdjan Janjic",
+            "email": "sr.janjic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guild\\": "library/"
+        }
+}
+}
