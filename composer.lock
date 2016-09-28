@@ -4,13 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9b8448c3c6ee1857e33f3e01043cc53f",
-    "content-hash": "318718b06c52461060e52832997709db",
-    "packages": [],
+    "hash": "f31f4d1550b8cea08df65e3f1f0446eb",
+    "content-hash": "07f9cccbb7716a11c5fcd793e0561881",
+    "packages": [
+        {
+            "name": "guildframework/mvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guildframework/mvc.git",
+                "reference": "944838cf2b3ae0a71785c3ed4695f56dff705db2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guildframework/mvc/zipball/944838cf2b3ae0a71785c3ed4695f56dff705db2",
+                "reference": "944838cf2b3ae0a71785c3ed4695f56dff705db2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Guild\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "PHP MVC Framework",
+            "keywords": [
+                "framework",
+                "mvc",
+                "php"
+            ],
+            "time": "2015-03-02 20:11:58"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "guildframework/mvc": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
